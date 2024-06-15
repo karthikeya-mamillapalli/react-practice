@@ -1,0 +1,27 @@
+{
+  "name": "react_prac",
+  "version": "1.0.0",
+  "description": "this is practice of react by karthikeya",
+ "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikeya-mamillapalli/react-practice.git"
+  },
+  "keywords": [],
+  "author": "karthikeya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikeya-mamillapalli/react-practice/issues"
+  },
+  "homepage": "https://github.com/karthikeya-mamillapalli/react-practice#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
