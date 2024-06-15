@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "this is practice of react by karthikeya",
  "scripts": {
-    "test": "jest"
+  "start" : "parcel index.html",
+  "prod":"parcel build index.html",
+   "test": "jest"
   },
   "repository": {
     "type": "git",

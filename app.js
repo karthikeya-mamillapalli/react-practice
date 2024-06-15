@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom/client';
 
 
 // const heading=React.createElement('h1',{id:'heading'},'test react');
@@ -8,15 +8,14 @@ import ReactDOM from 'react-dom/client'
 // console.log(heading)
 
 
-const parent= React.createElement('div',{
-    id:'parent'
-},React.createElement("div",{id:'child'}),[
-React.createElement('h1',{},'im in h1 tag'),
-React.createElement('h2',{},'im in h2 tag')]
+// const parent= React.createElement('div',{
+//     id:'parent'
+// },React.createElement("div",{id:'child'}),[
+// React.createElement('h1',{},'im in h1 tag'),
+// React.createElement('h2',{},'im in h2 tag')]
 
-)
-console.log(parent)
-
+// )
+const jsxheading= <h1 id='heading'> KARTHIK RoCKS IN JSX</h1>
+console.log(jsxheading)
 const root=ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(parent)
+root.render(jsxheading)
